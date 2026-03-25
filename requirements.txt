@@ -1,0 +1,6 @@
+transformers>=4.40.0
+peft
+torch
+accelerate
+gradio==4.44.1
+huggingface_hub<1.0.0
