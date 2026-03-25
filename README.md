@@ -9,7 +9,7 @@ The model weights and configuration files are hosted on Hugging Face:
 ## 💡 Project Highlights
 - **Base Model:** [TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T](https://huggingface.co/TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T)
 - **Dataset:** `databricks/databricks-dolly-15k`
-- **Method:** LoRA (Low-Rank Adaptation) for parameter-efficient finetuning.
+- **Method:** QLoRA (4-bit quantization + LoRA)
 - **Hardware:** Trained using an NVIDIA T4 GPU.
 - Training Technique: QLoRA (4-bit Quantized Low-Rank Adaptation).
 - Training Platform: Google Colab (T4 GPU) 
